@@ -1,2 +1,0 @@
-Haskell Curry
-Add changes!!!
