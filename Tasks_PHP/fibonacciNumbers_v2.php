@@ -11,5 +11,4 @@ function fib($n, $a = 0, $b = 1)
     }
     return $b;
 }
-print_r(fib(22));	//17711
-print_r("\n");
+print_r(fib(23));	//28657

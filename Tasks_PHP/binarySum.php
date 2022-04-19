@@ -6,4 +6,3 @@ function binarySum(string $binaryOne, string $binaryTwo) {
     return decbin($decSum); 					            //string
 }
 print_r(binarySum('1101', '101')); 				            //10010
-print_r("\n");
