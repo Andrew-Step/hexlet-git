@@ -3,8 +3,8 @@
 
 const formattedTime = (min) => {
     const minutesСount = min % 1440;
-    const hours = Math.floor(minutesСount / 60) < 10 ? `0${Math.floor(minutesСount / 60)}` : Math.floor(minutesСount / 60);
-    const minutes = minutesСount % 60 < 10 ? `0${minutesСount % 60}` : minutesСount % 60;
+    const hours = (minutesСount / 60) < 10 ? `0${Math.floor(minutesСount / 60)}` : Math.floor(minutesСount / 60);
+    const minutes = (minutesСount % 60) < 10 ? `0${minutesСount % 60}` : minutesСount % 60;
 
     return `${hours}:${minutes}`;
 };
