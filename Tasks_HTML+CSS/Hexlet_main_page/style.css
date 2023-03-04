@@ -1,0 +1,261 @@
+:root {
+  --blue: #0d6efd;
+  --green: #00b7a1;
+  --gray: #6d757d;
+  --light: #dee2e6;
+  --dark: #212529;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestRegular.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestLight.woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestMedium.woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestBold.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--dark);
+
+  font-size: 16px;
+  font-family: Onest, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1320px;
+
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+
+/* NAV */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--light);
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav a {
+  color: var(--gray);
+
+  text-decoration: none;
+}
+
+/* BTN */
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+
+  border: 1px solid var(--gray);
+  border-radius: 0.45rem;
+
+  text-decoration: none;
+}
+
+.btn-gray:hover {
+  background-color: var(--gray);
+  color: white;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Card */
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+
+  background-color: white;
+}
+
+.card-title {
+  margin: 0 0 0.5rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Text */
+
+h1, .h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Atomic CSS */
+
+.w-60 {
+  width: 60%;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-5 {
+  gap: 5rem;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.filter-grayscale {
+  filter: grayscale(1);
+}
+
+.border-left {
+  border-left: 1px solid var(--light);
+}
